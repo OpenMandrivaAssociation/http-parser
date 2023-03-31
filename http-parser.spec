@@ -7,7 +7,7 @@
 
 Name:           http-parser
 Version:        2.9.4
-Release:        1
+Release:        2
 Summary:        HTTP request/response parser for C
 Group:          System/Libraries
 License:        MIT
