@@ -11,7 +11,7 @@ Release:        2
 Summary:        HTTP request/response parser for C
 Group:          System/Libraries
 License:        MIT
-URL:            http://github.com/joyent/http-parser
+URL:            https://github.com/joyent/http-parser
 Source0:	https://github.com/joyent/http-parser/archive/v%{version}/%{name}-%{version}.tar.gz
 # Build shared library with SONAME using gyp and remove -O flags so optflags take over
 # TODO: do this nicely upstream
