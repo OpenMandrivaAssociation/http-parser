@@ -16,6 +16,7 @@ Source0:	https://github.com/joyent/http-parser/archive/v%{version}/%{name}-%{ver
 # Build shared library with SONAME using gyp and remove -O flags so optflags take over
 # TODO: do this nicely upstream
 Patch1:		http-parser-gyp-sharedlib.patch
+BuildRequires:	make
 BuildRequires:	gyp
 #BuildRequires:	python2-pkg-resources
 BuildRequires:	python-pkg-resources
